@@ -1,0 +1,59 @@
+/* Centraliza o formulário na página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estiliza o formulário */
+form {
+    background-color: #fff56c; /* Cor de fundo amarelo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Adiciona margem inferior para espaçamento */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o campo de sexo (radios) e interesses (checkboxes) */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Botões de envio e redefinição */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #e4af00;
+    color: rgb(0, 0, 0);
+}
+
+button[type="reset"] {
+    background-color: #b49f26;
+}

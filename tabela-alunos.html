@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tabela</title>
+
+    <!-- Ligação para o arquivo CSS externo -->
+    <link rel="stylesheet" href="/tabela-alunos.css">
+</head>
+<body>
+    <table>
+        <caption>Classificação dos Alunos por Média</caption>
+        <thead>
+            <tr>
+                <th scope="col" colspan="2">Nome</th>
+                <th scope="col">Nota 01</th>
+                <th scope="col">Nota 02</th>
+                <th scope="col">Média Final</th>
+                <th scope="col">Classificação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">João Silva</td>
+                <td>8.5</td>
+                <td>8.9</td>
+                <td>8.7</td>
+                <td rowspan="4">Aprovado</td>
+            </tr>
+            <tr>
+                <td colspan="2">Maria Oliveira</td>
+                <td>9.2</td>
+                <td>8.8</td>
+                <td>9.0</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">Lucas Pereira</td>
+                <td>7.6</td>
+                <td>8.4</td>
+                <td>8.0</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">Ana Costa</td>
+                <td>6.5</td>
+                <td>7.5</td>
+                <td>7.0</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">Pedro Santos</td>
+                <td>5.9</td>
+                <td>4.1</td>
+                <td>5.0</td>
+                <td>Reprovado</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
